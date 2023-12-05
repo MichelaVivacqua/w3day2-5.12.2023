@@ -259,10 +259,10 @@ console.log(newFilms);
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
 
-/*const sumOfYears = movies.reduce((acc, moviesYear) => {
-  return acc + number(movies.Year);
+const sumOfMovies = movies.reduce((acc, movie) => {
+  return acc + parseInt(movie.Year);
 }, 0);
-console.log(sumOfYears);*/
+console.log(sumOfMovies);
 
 /* ESERCIZIO 14 (find)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
